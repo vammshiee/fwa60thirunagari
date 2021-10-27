@@ -4,7 +4,6 @@ var value = 0;
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
-  // res.send('respond with a resource');
   value = value +1;
   res.send('Users accesses are: '+ value);
 });
